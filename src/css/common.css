@@ -16,3 +16,18 @@ img {
   display: block;
   max-width: 100%;
 }
+
+
+.timer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.value,
+.label {
+  display: block;
+  padding-right: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+}
